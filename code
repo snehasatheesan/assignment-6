@@ -1,0 +1,43 @@
+1.Write a java program to mimic login of a person (Get username and password from the user and authenticate). The username and password should be hardcoded in a static block.
+
+  public class logicmimic {
+    
+     
+        static String username;
+        static String password;
+    
+        static {
+            username="SNEHA";
+            password="sneha2002";
+        }
+    
+        public static void main(String[] args) {
+            if(username.equals("SNEHA") && password.equals("sneha2002"))
+                System.out.println("authentication passed");
+            else
+                System.out.println(" invalid authentication ");
+        }
+    }
+_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+2. Write a program to calculate Math operations with Math contents initialized in static block.
+
+public class staticmath {
+  
+       
+        static int a,b;
+        static {
+            a=8;
+            b=10;
+
+        }
+    
+        public static void main(String[] args) {
+            System.out.println("Addition: "+(a+b));
+            System.out.println("Subtract: "+(a-b));
+            System.out.println("Multiply: "+(a*b));
+            System.out.println("Divide: "+(a/b));
+            System.out.println("Remainder: "+(a%b));
+        }
+    }
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
